@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bütçe Takip</string>
+    <string name="action_settings">Ayarlar</string>
+    <string name="record_ok">Başarıyla gerçekleştirildi.</string>
+    <string name="user_cancelled">Kullanıcı iptal etti.</string>
+    <string name="title_activity_kullanici_giris">Kullanıcı Girişi</string>
+    <string name="title_activity_gelir_gider_ekle">İşlem Ekle</string>
+    <string name="duzenle">Düzenle</string>
+    <string name="sil">Sil</string>
+    
+    <string name="logout">Kullanıcı adı veya parola geçersiz!</string>
+    <string name="updatetitle">Güncelleştiriliyor</string>
+    <string name="updatemesage">Lütfen bekleyiniz...</string>
+
+    <string-array name="giderler">
+        <item>Kira</item>
+        <item>Sağlık</item>
+        <item>Market</item>
+        <item>Fatura</item>
+        <item>Vergi</item>
+        <item>Diğer</item>
+    </string-array>
+    <string-array name="gelirler">
+        <item>Maaş</item>
+        <item>Burs</item>
+        <item>Geri Ödeme</item>
+        <item>Harçlık</item>
+        <item>Bağış</item>
+        <item>Diğer</item>
+    </string-array>
+
+    <string name="title_activity_butce_liste">Liste</string>
+    <string name="toplam">Toplam</string>
+    <string name="gelir">Gelir</string>
+    <string name="gider">Gider</string>
+    <string name="nakit">Nakit</string>
+    <string name="tarih">Tarih</string>
+    <string name="user_name">Kullanıcı Adı</string>
+    <string name="pass">Parola</string>
+    <string name="kategori">Kategori:</string>
+    <string name="tutar">Tutar:</string>
+    <string name="aciklama">Açıklama:</string>
+    <string name="dilBaslik">Dil Seçimi</string>
+    <string name="dilAciklama">Uygulama dilini seçiniz.</string>
+
+    <string-array name="dilAdlar">
+        <item name="tr">Türkçe</item>
+        <item name="en">İngilizce</item>
+    </string-array>
+    <string-array name="dilKisaltma">
+        <item name="tr">TR</item>
+        <item name="en">EN</item>
+    </string-array>
+
+</resources>

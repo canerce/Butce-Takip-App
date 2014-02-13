@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Budget Tracking</string>
+    <string name="action_settings">Settings</string>
+    <string name="record_ok">Successful.</string>
+    <string name="user_cancelled">User canceled.</string>
+    <string name="title_activity_kullanici_giris">Login</string>
+    <string name="title_activity_gelir_gider_ekle">Add Process</string>
+    <string name="duzenle">Edit</string>
+    <string name="sil">Delete</string>
+    <string name="logout">User name or password invalid!</string>
+    <string name="updatetitle">Updating</string>
+    <string name="updatemesage">Please wait...</string>
+
+    <string-array name="giderler">
+        <item>Kira</item>
+        <item>Sağlık</item>
+        <item>Market</item>
+        <item>Fatura</item>
+        <item>Vergi</item>
+        <item>Diğer</item>
+    </string-array>
+    <string-array name="gelirler">
+        <item>Maaş</item>
+        <item>Burs</item>
+        <item>Geri Ödeme</item>
+        <item>Harçlık</item>
+        <item>Bağış</item>
+        <item>Diğer</item>
+    </string-array>
+
+    <string name="title_activity_butce_liste">Process List</string>
+    <string name="toplam">Sum</string>
+    <string name="gelir">Income</string>
+    <string name="gider">Expens</string>
+    <string name="nakit">Cash</string>
+    <string name="tarih">Date</string>
+    <string name="user_name">User Name</string>
+    <string name="pass">Password</string>
+    <string name="kategori">Category:</string>
+    <string name="tutar">Total:</string>
+    <string name="aciklama">Description:</string>
+    <string name="dilBaslik">Language selection</string>
+    <string name="dilAciklama">Select application language.</string>
+
+    <string-array name="dilAdlar">
+        <item name="tr">Turkish</item>
+        <item name="en">English</item>
+    </string-array>
+    <string-array name="dilKisaltma">
+        <item name="tr">TR</item>
+        <item name="en">EN</item>
+    </string-array>
+
+</resources>

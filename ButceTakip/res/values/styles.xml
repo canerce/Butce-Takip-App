@@ -1,0 +1,91 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppBaseTheme" parent="android:Theme.Light"></style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme"></style>
+
+    <style name="btnSenc" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/sinchronize</item>
+        <item name="android:width">30dp</item>
+        <item name="android:height">30dp</item>
+        <item name="android:gravity">right</item>
+    </style>
+
+    <style name="btnAyarlar" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/ic_settings_2561</item>
+        <item name="android:width">64dp</item>
+        <item name="android:height">64dp</item>
+    </style>
+
+    <style name="btnEkle" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/ic_plus2_256</item>
+        <item name="android:width">64dp</item>
+        <item name="android:height">64dp</item>
+    </style>
+
+    <style name="btnListe" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/ic_view_details_256</item>
+        <item name="android:width">64dp</item>
+        <item name="android:height">64dp</item>
+    </style>
+
+    <style name="labelTarih" parent="@android:style/Widget.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">25sp</item>
+    </style>
+
+    <style name="labelDoviz" parent="@android:style/Widget.TextView">
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:ems">3</item>
+    </style>
+
+    <style name="labelTDeger" parent="@android:style/Widget.TextView">
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:ems">3</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+
+    <style name="labelGelGit" parent="@android:style/Widget.TextView">
+        <item name="android:gravity">left</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:paddingLeft">20dp</item>
+    </style>
+
+    <style name="labelTablo" parent="@android:style/Widget.TextView">
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:ems">3</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    
+    <style name="btnGeri" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/back</item>
+        <item name="android:width">60dp</item>
+        <item name="android:height">60dp</item>
+    </style>
+
+    <style name="btnSil" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/delete</item>
+        <item name="android:width">60dp</item>
+        <item name="android:height">60dp</item>
+    </style>
+
+    <style name="btnKaydet" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/save</item>
+        <item name="android:width">60dp</item>
+        <item name="android:height">60dp</item>
+    </style>
+    <style name="btnGiris" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/ic_navigation_accept</item>
+        <item name="android:width">60dp</item>
+        <item name="android:height">60dp</item>
+    </style>
+
+    <color name="white">#ffffff</color>
+    <color name="green">#21ff21</color>
+    <color name="red">#FF0000</color>
+
+</resources>

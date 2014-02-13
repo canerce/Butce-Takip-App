@@ -1,0 +1,5 @@
+<resources>
+    <dimen name="GeneralPadding">15dp</dimen>
+    <dimen name="margini">25dp</dimen>
+
+</resources>

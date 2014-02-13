@@ -1,0 +1,254 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/GeneralPadding"
+    tools:context=".AnaEkran" >
+
+    <TextView
+        android:id="@+id/tbAciklama"
+        style="@style/labelTarih"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/tarih" />
+
+    <TextView 
+        android:id="@+id/txtTarih"
+        style="@style/labelTarih"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="30dp"
+        android:text="Tarih" /> 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tbTutar"
+                    style="@style/labelDoviz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dolar: " />
+
+                <TextView
+                    android:id="@+id/txtDolar"
+                    style="@style/labelDoviz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/tbTarih"
+                    style="@style/labelDoviz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Euro:  " />
+
+                <TextView
+                    android:id="@+id/txtEuro"
+                    style="@style/labelDoviz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left" />
+
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/btnGuncelle"
+            style="@style/btnSenc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:minHeight="30dp"
+            android:minWidth="30dp"
+            android:onClick="guncelleDoviz" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    style="@style/labelTablo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/toplam" />
+
+                <TextView
+                    android:id="@+id/textView5"
+                    style="@style/labelTablo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TL" />
+
+                <TextView
+                    android:id="@+id/textView7"
+                    style="@style/labelTablo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="USD" />
+
+                <TextView
+                    style="@style/labelTablo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EUR" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    style="@style/labelTablo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gelir" />
+
+                <TextView
+                    android:id="@+id/txtGelirTL"
+                    style="@style/labelTDeger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/txtGelirUSD"
+                    style="@style/labelTDeger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/txtGelirEURO"
+                    style="@style/labelTDeger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/textView12"
+                    style="@style/labelTablo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/gider" />
+
+                <TextView 
+                    android:id="@+id/txtGiderTL"
+                    style="@style/labelTDeger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/txtGiderUSD"
+                    style="@style/labelTDeger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/txtGiderEURO"
+                    style="@style/labelTDeger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/textView18"
+                    style="@style/labelTablo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nakit" />
+
+                <TextView
+                    android:id="@+id/txtNakitTL"
+                    style="@style/labelTDeger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/txtNakitUSD"
+                    style="@style/labelTDeger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+
+                <TextView
+                    android:id="@+id/txtNakitEURO"
+                    style="@style/labelTDeger"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0" />
+            </TableRow>
+
+        </TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|bottom"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margini" >
+
+        <Button
+            android:id="@+id/btnEkle"
+            style="@style/btnEkle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/margini"
+            android:onClick="openEkle" />
+
+        <Button
+            android:id="@+id/btnListe"
+            style="@style/btnListe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="openListe" />
+
+        <Button
+            android:id="@+id/btnAyarlar"
+            style="@style/btnAyarlar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margini"
+            android:onClick="openAyarlar" />
+
+    </LinearLayout>
+
+</LinearLayout>
